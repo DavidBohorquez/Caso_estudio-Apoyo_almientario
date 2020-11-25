@@ -1,0 +1,902 @@
+
+Tablespace borrado.
+
+
+Tablespace borrado.
+
+
+Usuario borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Rol borrado.
+
+
+Confirmación terminada.
+
+
+Tablespace creado.
+
+
+Tablespace creado.
+
+
+Usuario creado.
+
+
+Concesión terminada correctamente.
+
+
+Rol creado.
+
+
+Rol creado.
+
+
+Rol creado.
+
+
+Rol creado.
+
+
+Rol creado.
+
+
+Rol creado.
+
+
+Rol creado.
+
+Conectado.
+CREATE ROLE R_ADMIN
+*
+ERROR en línea 1:
+ORA-01031: privilegios insuficientes 
+
+
+CREATE ROLE R_ADMIN
+*
+ERROR en línea 1:
+ORA-01031: privilegios insuficientes 
+
+
+CREATE ROLE R_ADMIN
+*
+ERROR en línea 1:
+ORA-01031: privilegios insuficientes 
+
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Procedimiento PL/SQL terminado correctamente.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Tabla creada.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Comentario creado.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Índice creado.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Tabla modificada.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+
+Concesión terminada correctamente.
+
+Conectado.
