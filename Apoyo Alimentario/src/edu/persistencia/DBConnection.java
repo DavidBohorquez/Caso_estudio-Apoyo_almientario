@@ -5,13 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-	
+
 	protected Connection connection;
-	
+
 	public DBConnection() {
 		connection = null;
 	}
-	
+
 	public Connection conectarDB() {
 		try {
 
@@ -20,29 +20,28 @@ public class DBConnection {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		
+
 		try {
 
-			connection = DriverManager.getConnection(
-					"jdbc:oracle:thin:@localhost:1521:" + "xe", "system", "blueplayer10");
+			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "SGA", "sga");
 
 		} catch (SQLException e) {
 
 			e.printStackTrace();
 		}
-		
+
 		if (connection != null) {
-			System.out.println("nSuccessfullly connected to Oracle DB");
+			System.out.println("Successfullly connected to Oracle DB");
 		} else {
-			System.out.println("nFailed to connect to Oracle DB");
+			System.out.println("Failed to connect to Oracle DB");
 		}
-		
+
 		return connection;
 	}
-	
-	/*public static void main() {
-		System.out.println("RUN!!!!!!!!!!!!!!!!!!");
-		new DBConnection().conectarDB();
-	}*/
+
+	/*
+	 * public static void main() { System.out.println("RUN!!!!!!!!!!!!!!!!!!"); new
+	 * DBConnection().conectarDB(); }
+	 */
 
 }

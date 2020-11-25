@@ -13,7 +13,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/7 semester/DataBase II/Talleres/Taller JAVA - JDBC/ojdbc14.jar/ojdbc14.jar"/>
 	<classpathentry kind="lib" path="D:/7 semester/DataBase II/Talleres/Taller JAVA - JDBC/ojdbc-full.tar/ojdbc-full/OJDBC-Full/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/7 semester/DataBase II/Talleres/Taller JAVA - JDBC/ojdbc14.jar/ojdbc14.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
