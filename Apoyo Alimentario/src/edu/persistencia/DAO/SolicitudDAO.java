@@ -16,25 +16,10 @@ import edu.logica.Solicitud;
 import edu.persistencia.DBConnection;
 
 public class SolicitudDAO extends DBConnection implements DAO {
-	private Solicitud sol;
 
 	@Override
 	public void insertar(Object objeto) throws SQLException {
 		// TODO Auto-generated method stub
-		try {
-			String strSQL = "INSERT into Solicitud values (?, CURRENT_DATE, 'E', '', ?, ?);";
-			PreparedStatement st = conectarDB().prepareStatement("");
-			st.setString(1, sol.getId());
-			st.setString(2, sol.getConvocatoria().getId());
-			st.setString(3, sol.getSolicitante().getCodigo());
-			
-			st.executeUpdate();
-			st.close();
-			
-		
-		}catch (SQLException e) {
-			String resultado = "No se pudo realizar la solicitud,"+e.getMessage();
-		}
 
 	}
 
@@ -102,7 +87,7 @@ public class SolicitudDAO extends DBConnection implements DAO {
 
 					solicitud = new Solicitud(auxR.getString("sol.k_id"), conv, est);
 					solicitud.setEstado(auxR.getString("sol.i_estado"));
-					solicitud.setfRealizaciÃ³n(auxR.getDate("sol.f_realizacion"));
+					solicitud.setfRealización(auxR.getDate("sol.f_realizacion"));
 					solicitud.setObservacion(auxR.getString("sol.o_observacion"));
 
 					auxR1 = auxR;
