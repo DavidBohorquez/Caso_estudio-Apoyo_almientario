@@ -23,7 +23,7 @@ public class DBConnection {
 
 		try {
 
-			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "SGA", "sga");
+			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "APOYO_ALIMENTARIO_USR", "APOYO123");
 
 		} catch (SQLException e) {
 
