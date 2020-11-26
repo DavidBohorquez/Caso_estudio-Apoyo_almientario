@@ -16,10 +16,25 @@ import edu.logica.Solicitud;
 import edu.persistencia.DBConnection;
 
 public class SolicitudDAO extends DBConnection implements DAO {
+	private Solicitud sol;
 
 	@Override
 	public void insertar(Object objeto) throws SQLException {
 		// TODO Auto-generated method stub
+		try {
+			String strSQL = "INSERT into Solicitud values (?, CURRENT_DATE, 'E', '', ?, ?);";
+			PreparedStatement st = conectarDB().prepareStatement("");
+			st.setString(1, sol.getId());
+			st.setString(2, sol.getConvocatoria().getId());
+			st.setString(3, sol.getSolicitante().getCodigo());
+			
+			st.executeUpdate();
+			st.close();
+			
+		
+		}catch (SQLException e) {
+			String resultado = "No se pudo realizar la solicitud,"+e.getMessage();
+		}
 
 	}
 
