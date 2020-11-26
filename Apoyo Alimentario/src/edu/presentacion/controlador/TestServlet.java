@@ -56,9 +56,13 @@ public class TestServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("ENTRÓ POST!!!");
+		
 		doGet(request, response);
+		
 		System.out.println("PASÓ!!!");
-		System.out.println("¡¡¡¡¡¡¡¡¡¡" + request.getParameter("username") + "!!!!!!!!!!!!!!!1");
+		System.out.println("¡¡¡¡¡¡¡¡¡¡" + request.getParameter(/*"username"*/"nombre") + "!!!!!!!!!!!!!!!");
+		System.out.println("¡¡¡¡¡¡¡¡¡¡" + request.getParameter(/*"username"*/"codigo") + "!!!!!!!!!!!!!!!");
+		
 		PrintWriter out = response.getWriter();
 		out.print("<html><body><h1 align='center'>" + new Date().toString() + "</h1></body></html>");
 	}

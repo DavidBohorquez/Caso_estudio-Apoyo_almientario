@@ -11,12 +11,14 @@ import edu.persistencia.DAOFactory;
 public class Modelo {
 
 	private DAOFactory factory;
+	private ArrayList<Solicitud> solicitudes;
 
 	public Modelo() {
 		getFactory();
 	}
 
 	public void addDocs(Solicitud solicitud) throws SQLException {
+		solicitudes = (ArrayList<Solicitud>) (List) factory.getSolicitudesDB();
 		solicitud.setDocumentos((ArrayList<Documento>) (List) factory.getDocumentosDB().consultarByName(solicitud));
 	}
 
