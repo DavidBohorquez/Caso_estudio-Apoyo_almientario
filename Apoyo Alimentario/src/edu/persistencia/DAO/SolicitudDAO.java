@@ -87,7 +87,7 @@ public class SolicitudDAO extends DBConnection implements DAO {
 
 					solicitud = new Solicitud(auxR.getString("sol.k_id"), conv, est);
 					solicitud.setEstado(auxR.getString("sol.i_estado"));
-					solicitud.setfRealización(auxR.getDate("sol.f_realizacion"));
+					solicitud.setfRealizaciÃ³n(auxR.getDate("sol.f_realizacion"));
 					solicitud.setObservacion(auxR.getString("sol.o_observacion"));
 
 					auxR1 = auxR;
@@ -117,5 +117,27 @@ public class SolicitudDAO extends DBConnection implements DAO {
 
 		return null;
 	}
+	
+	public Solicitud Actualizar(Solicitud sol){
+		String respuesta = "";
+		DBConnection con = new DBConnection();
+    	Connection cn = con.conectarDB(); 
+    	PreparedStatement st = null;
+        String sentencia = "UPDATE SOLICITUD SET I_ESTADO = 'R', O_OBSERVACION = 'RECHAZADO POR FEO' WERE K_ID = '2';"; 
+        System.out.println(sentencia);
+        try {	
+            st = cn.prepareStatement(sentencia);
+            st.setString(1, sol.getEstado());
+            st.setString(2, sol.getObservacion());
+            st.execute();
+            
+            respuesta = "Solicitud " + solicitud.getId() + " Actualizada correctamente.";
+           
+        } catch (SQLException ex) {
+            respuesta = "No se pudo cargar la solicitud,"+ex.getMessage();
+            JOptionPane.showMessageDialog(null, respuesta);
+        }
+        return solicitud;
+    }
 
 }
