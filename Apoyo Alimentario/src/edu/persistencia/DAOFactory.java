@@ -7,6 +7,7 @@ public class DAOFactory {
 
 	private SolicitudDAO solicitudesDB;
 	private DocumentoDAO documentosDB;
+	private CondicionDAO condicionDB;
 
 	public DAOFactory() {
 
@@ -24,6 +25,13 @@ public class DAOFactory {
 			documentosDB = new DocumentoDAO();
 		}
 		return documentosDB;
+	}
+	
+	public CondicionDAO getCondicionDB() {
+		if (condicionDB == null) {
+			condicionDB = new CondicionDAO();
+		}
+		return condicionDB;
 	}
 
 }
