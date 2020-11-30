@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Required meta tags always come first -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet"
+	href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+<title>Apoyo Alimentario</title>
+
+</head>
+<body>
+	<!--NAVIGATION BAR-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">SGAA</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarText" aria-controls="navbarText"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">Inicio
+						<span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Opcion B</a>
+				</li>
+			</ul>
+			<span> <a class="btn btn-dark text-light" id="btn_admin"
+				href="./admin.html"> <span>Admin</span>
+			</a>
+			</span>
+		</div>
+	</nav>
+
+
+
+	<!--LOGIN MODAL-->
+	<div id="loginModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-md" role="content">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Login</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						&times;</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-row">
+							<div class="form-group col-sm-4">
+								<label class="sr-only" for="exampleInputEmail3">Email
+									address</label> <input type="email"
+									class="form-control form-control-sm mr-1"
+									id="exampleInputEmail3" placeholder="Enter email">
+							</div>
+							<div class="form-group col-sm-4">
+								<label class="sr-only" for="exampleInputPassword3">Password</label>
+								<input type="password" class="form-control form-control-sm mr-1"
+									id="exampleInputPassword3" placeholder="Password">
+							</div>
+							<div class="col-sm-auto">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox"> <label
+										class="form-check-label"> Remember me </label>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer ">
+							<button type="button" class="btn btn-secondary btn-sm ml-auto"
+								data-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary btn-sm ml-1">Sign
+								in</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!--REGISTRO modal-->
+	<div>
+		<div class="modal fade text-dark" id="registroModal" role="dialog">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title ">Registro de Solicitud</h1>
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">&times;</button>
+					</div>
+
+					<div class="modal-body">
+						<form class="offset-1" action="ControlServlet" id="solicitudForm"
+							name="solicitudForm" method="POST">
+							<div class="row form-group">
+								<label class="col-sm-auto" for="txtNombre">Nombre</label> <input
+									type="text" class="col-sm-4" id="txtNombre" name="txtNombre"
+									placeholder="Nombre del Estudiante"> <label
+									class="col-sm-auto" for="txtCodigo">Codigo</label> <input
+									type="text" class="col-sm-auto" id="txtCodigo" name="txtCodigo"
+									placeholder="Codigo del Estudiante">
+
+
+							</div>
+							<div class="row form-group">
+								<div class="form-group row">
+									<p class="col-form-label col-sm-auto">Ingresos Familiares:
+
+									
+									<div class="form-check">
+										<dl>
+											<label> <input type="radio" name="ingresos"
+												id="ingresos1"> 0-1.0 SMLV
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="radio" name="ingresos"
+												id="ingresos2"> >1.1-2.0 SMMLV
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="radio" name="ingresos"
+												id="ingresos3"> >2.1-3.0 SMMLV
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="radio" name="ingresos"
+												id="ingresos4" checked=""> >3.1 - 4.0 SMMLV
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="radio" name="ingresos"
+												id="ingresos5"> >4.1 SMMLV
+											</label>
+										</dl>
+
+									</div>
+									</p>
+
+
+									<div class="row">
+										<p class="col-form-label col-sm-auto">Condiciones
+											Familiares:
+										<div class="form-check">
+											<dl>
+												<label> <input type="checkbox" name="ingresos"
+													id="ingresos1"> Sostiene el hogar donde vive
+												</label>
+											</dl>
+											<dl>
+												<label> <input type="checkbox" name="ingresos"
+													id="ingresos2"> Se sostiene así mismo
+												</label>
+											</dl>
+											<dl>
+												<label> <input type="checkbox" name="ingresos"
+													id="ingresos3"> Vive fuera del núcleo familiar
+													inmediato
+												</label>
+											</dl>
+											<dl>
+												<label> <input type="checkbox" name="ingresos"
+													id="ingresos4" checked=""> Tiene cónyuge, hijos u
+													otras personas a su cargo
+												</label>
+											</dl>
+
+
+										</div>
+										</p>
+									</div>
+
+
+									div class="row">
+									<p class="col-form-label col-sm-auto">Condiciones
+										Familiares:
+									<div class="form-check">
+										<dl>
+											<label> <input type="checkbox" name="ingresos"
+												id="ingresos1"> Sostiene el hogar donde vive
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="checkbox" name="ingresos"
+												id="ingresos2"> Se sostiene así mismo
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="checkbox" name="ingresos"
+												id="ingresos3"> Vive fuera del núcleo familiar
+												inmediato
+											</label>
+										</dl>
+										<dl>
+											<label> <input type="checkbox" name="ingresos"
+												id="ingresos4" checked=""> Tiene cónyuge, hijos u
+												otras personas a su cargo
+											</label>
+										</dl>
+
+
+									</div>
+									</p>
+								</div>
+
+
+							</div>
+					</div>
+					<div class="form-group col-md-4">
+						<p class="col-form-label">Lista
+						<div>
+							<select id="inputState" class="form-control">
+								<option selected>Choose...</option>
+								<option>...</option>
+							</select>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Cancelar</button>
+						<button type="submit" class="btn btn-primary">Registrar
+							Solicitud</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<!--MAIN-->
+	<main role="main">
+		<section class="jumbotron text-center">
+			<div class="container">
+				<h1>Bienvenido</h1>
+				<p class="lead text-muted">Esta es la nueva plataforma para el
+					Apoyo Alimentario de la Universidad</p>
+				<p>
+					<a id="btn_solicitar" class="btn btn-primary my-2">Solicitar
+						Apoyo</a> <a id="btn_revisar" class="btn btn-secondary my-2">Revisar
+						Solicitud</a>
+				</p>
+			</div>
+		</section>
+
+		<div class="container">
+			<div class="row">
+				<h1>Admitidos Convocatoria Actual</h1>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col">Cod.</th>
+							<th scope="col">Apellido</th>
+							<th scope="col">Nombre</th>
+							<th scope="col">Tipo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">20172020145</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<th scope="row">20172463774</th>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>B</td>
+						</tr>
+						<tr>
+							<th scope="row">20172020025</th>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>C</td>
+						</tr>
+						<tr>
+							<th scope="row">20172024567</th>
+							<td>Pepito</td>
+							<td>Perez</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<th scope="row">20112027951</th>
+							<td>Pepito</td>
+							<td>Perez</td>
+							<td>B</td>
+						</tr>
+						<tr>
+							<th scope="row">20172020145</th>
+							<td>Pepita</td>
+							<td>Martinez</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<th scope="row">12345674894</th>
+							<td>Pepe</td>
+							<td>Rodrigguez</td>
+							<td>B</td>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+
+	</main>
+</body>
+</html>
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+	$("#btn_revisar").click(function() {
+		$("#loginModal").modal('show');
+
+	});
+	$("#btn_solicitar").click(function() {
+		$("#registroModal").modal('show');
+
+	});
+</script>
