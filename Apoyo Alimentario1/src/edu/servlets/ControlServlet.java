@@ -59,8 +59,8 @@ public class ControlServlet extends HttpServlet {
 
 		System.out.println("PASO POST!!!!!!!!!!!!!!");
 
-		// request.getRequestDispatcher("admin.html").forward(request, response);
-		response.sendRedirect("admin.html");
+		request.getRequestDispatcher("index.html").forward(request, response);
+		//response.sendRedirect("index.html");
 
 		// doGet(request, response);
 

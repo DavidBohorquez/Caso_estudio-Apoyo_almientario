@@ -137,9 +137,18 @@ public class SolicitudDAO /* extends DBConnection */ implements DAO {
 		List<Object> lista = null;
 
 		try {
-			PreparedStatement st = DBConnection.connection.prepareStatement("select k_codigo from estudiante");
+			PreparedStatement st = DBConnection.connection
+					.prepareStatement("select est.k_codigo, est.n_nombre, sub.i_tipo\r\n" + "from estudiante est\r\n"
+							+ "inner join solicitud sol on est.k_codigo = sol.k_id_estudiante\r\n"
+							+ "inner join beneficio ben on sol.k_id = ben.id_solicitud\r\n"
+							+ "inner join tipo_subsidio tip_sub on ben.id_tipo_subsidio = tip_sub.k_id\r\n"
+							+ "inner join subsidio sub on tip_sub.id_subsidio = sub.k_id\r\n"
+							+ "inner join convocatoria conv on conv.k_id_convocatoria = sol.id_convocatoria\r\n"
+							+ "where (conv.q_anio, conv.q_periodo) in (select max(q_anio), max(q_periodo) from convocatoria)");
 
+			System.out.println("RESULTSET!!!!");
 			ResultSet rs = st.executeQuery();
+			System.out.println("PASÓ RESULTSET!!!!");
 
 			ResultSet auxR;
 			ResultSet auxR1;
@@ -148,6 +157,8 @@ public class SolicitudDAO /* extends DBConnection */ implements DAO {
 
 			while (rs.next()) {
 				lista.add(rs.getString("k_codigo"));
+				lista.add(rs.getString("n_nombre"));
+				lista.add(rs.getString("i_tipo"));
 			}
 			rs.close();
 			st.close();

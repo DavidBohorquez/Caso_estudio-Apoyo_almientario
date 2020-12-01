@@ -29,14 +29,11 @@ public class Modelo {
 	public void consultarListado() throws SQLException {
 		connDB.setConnection(connDB.conectarDBUser("system", "blueplayer10"));
 
-		if (connDB.connection == null)
-			System.out.println("NULLLLLLLLLLLLLLL");
-		else
-			System.out.println("NO ES NULLLLLLLLLLLLLLLL");
-
 		adList = (ArrayList<String>) (List) getFactory().getSolicitudesDB().consultar1();
 
 		System.out.println(adList.get(0));
+		System.out.println(adList.get(1));
+		System.out.println(adList.get(2));
 	}
 
 	public void establecerConn(String user, String pass) {
